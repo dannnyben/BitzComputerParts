@@ -1,0 +1,260 @@
+html{
+    background-color: slategray;
+}
+
+#LogoContainer{
+  background-color: rgb(79, 93, 107);
+  border-style: solid;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 20px;
+}
+
+#Logo{
+  height: 200px; 
+  width: 200px;
+}
+
+#RandomPC{
+  background-color: white;
+}
+
+/*
+START of the NAV MENU Menu
+*/
+
+ul {
+  list-style-type: none;
+  margin-top: -250px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(139, 139, 139);
+  width: 70%;
+  margin-left: 260px;
+  box-shadow: none;
+  border-style: solid;
+  border-radius: 20px;
+  max-height: 150px;
+}
+
+ul:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  box-shadow: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 20px;
+}
+  
+li a:hover {
+    background-color: #555;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+    translate: 4px 2px;
+    border-style: solid;
+    padding: 10px;
+}
+
+/*
+START of the DROP-DOWN MENU
+*/
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    box-shadow: none;
+    margin-left: 55px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #222222;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display:flex;
+}
+.dropdown:hover{
+    translate: 4px 4px;
+    box-shadow: 5px 5px 5px black;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*
+END of the DROP-DOWN MENU
+*/
+
+.active{
+  background-color: darkslategray;
+  border-width: 15px;
+}
+
+/*
+START of the ADD LISTING PAGE
+*/
+
+#AddListingArea{
+  background-color: white;
+  border-radius: 25px;
+  max-width: 550px;
+  min-width: 550px;
+  height: auto;
+  margin: auto;
+
+  border-style: solid;
+  border-width: 2px;
+
+  box-shadow: none;
+}
+
+#AddListingArea:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#ListingImage{
+  margin-left: 32%;
+  display: block;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+#ListingImage:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#ItemDescription{
+  text-align: center;
+  border-width: 2px;
+  border-radius: 20px;
+  font-size: larger;
+}
+
+#ItemDescriptionBox{
+  margin-left: 23%;
+  display: block;
+  max-width: 300px;
+  min-width: 300px;
+  max-height: 200px;
+  min-height: 200px;
+  margin-bottom: 20px;
+  border-width: 2px;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+#ItemDescriptionBox:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#ItemName{
+  text-align: center;
+  font-size: larger;
+}
+
+#ItemNameInput{
+  margin-left: 27%;
+  display: block;
+  margin-bottom: 20px;
+  border-width: 2px;
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+#ItemNameInput:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#ItemType{
+  text-align: center;
+  font-size: larger;
+}
+
+#ItemTypeSelection{
+  margin-left: 39%;
+  display: block;
+  border-width: 2px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  box-shadow: none;
+}
+
+#ItemTypeSelection:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#PriceInput{
+  margin-left: 42.5%; 
+  display: block;
+  box-shadow: none;
+  margin-bottom: 20px;
+}
+
+#PriceInput:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#TOS{
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+#TOS:hover{
+  translate: 4px 4px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#ListingSections{
+  border-bottom: dashed;
+}
+
+/*
+END of the ADD LISTING PAGE
+*/
