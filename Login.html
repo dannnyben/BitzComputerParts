@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title> Log In </title>
+        <link rel="stylesheet" href="LogInPage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+
+        <center>    
+            <img id="Logo" src="BitzLogo.png" alt = "Bitz" style="height: 300px; width: 300px; padding-top: 80px;">
+        </center>
+        <div id="Credentials">
+            <center>
+                <form method="post" action="CheckEmail.php">
+                    <table style="margin-top: 30px;">
+                        <tr>
+                            <tr>
+                                <td id="Email"> Email Address </td>
+                            </tr>
+                            <td> 
+                                <input id="Email_In" type="text" name="Email" size="30">
+                            </td>
+                            <tr>
+                                <td id="Password"> Password </td>
+                            </tr>
+                            <td> 
+                                <input id="Pass_IN" type="password" name="Password" size="30">
+                            </td>
+                            <tr>
+                                <td>
+                                    <input type="checkbox" id="TOS" name="TOS" value="Accept">
+                                    <p style="font-size: 10px;"> By checking this box you are agreeing to Bitz- </p>
+                                    <p style="font-size: 10px;"><a href="#TOS"> Conditions Of Use </a> and <a href="#PrivacyNotice"> Privacy Notice </p>
+                                </td>
+                            </tr>
+                        </tr>
+                        <tr>
+                            <td colspan="2"> <input type="submit" value="Log In" style="margin-top: 30px; width: 250px; height: 25px;"> </td>
+                        </tr>
+                        <tr>
+                        </tr>
+                    </table>
+                </form>
+                <form method="link" action="RegUser.php" style="padding-bottom: 10px;">
+                    <td colspan="2"> <input style="height: 25px; width: 250px;"type="submit" value="Register New User">
+                </form>
+            </center>
+        </div>
+    </body>
+</html>
