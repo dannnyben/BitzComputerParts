@@ -4,7 +4,7 @@ CREATE TABLE CPU_Listings(
     CPU_Name text(30),
     CPU_Cores int(5),
     CPU_Manufacturer text(30),
-    CPU_Price double(10),
+    CPU_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(CPU_ID)          
@@ -17,7 +17,7 @@ CREATE TABLE RAM_Listings(
     RAM_Speed float(6),
     RAM_Type varchar(4),
     RAM_Manufacturer text(30),
-    RAM_Price double(10),
+    RAM_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(RAM_ID)
@@ -30,7 +30,7 @@ CREATE TABLE GPU_Listings(
     GPU_Speed float(6),
     GPU_VRAM int(4),
     GPU_Manufacturer text(30),
-    GPU_Price double(10),
+    GPU_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(GPU_ID)
@@ -43,7 +43,7 @@ CREATE TABLE Monitor_Listing(
     Monitor_HZ float(6),
     RAM_Manufacturer text(30),
     Monitor_Resolution bool(2),
-    Monitor_Price double(10),
+    Monitor_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(Monitor_ID)
@@ -55,7 +55,7 @@ CREATE TABLE AndroidMobile_Listing(
     Phone_Name text(30),
     Phone_Memory_Size int(10),
     Phone_Manufacturer text(30),
-    Phone_Price double(10),
+    Phone_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(Phone_ID)
@@ -67,7 +67,7 @@ CREATE TABLE IPhone_Listing(
     IPhone_Name text(30),
     IPhone_Memory_Size int(10),
     IPhone_Battery_Life varchar(4),
-    IPhone_Price double(10),
+    IPhone_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(IPhone_ID)
@@ -79,7 +79,7 @@ CREATE TABLE Macbook_Listing(
     Macbook_Name text(30),
     Macbook_CPU text(30),
     Mackbook_Year int(4),
-    Macbook_Price double(10),
+    Macbook_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(Macbook_ID)
@@ -104,7 +104,7 @@ CREATE TABLE PC_Listing(
     PC_GPU_Speed float(6),
     PC_GPU_VRAM int(4),
     RAM_Manufacturer text(30),
-    PC_Price double(10),
+    PC_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(PC_ID)
@@ -123,7 +123,7 @@ CREATE TABLE Laptop_Listing(
     Laptop_RAM_Size int(3),
     Laptop_RAM_Speed int(4),
     Laptop_Type varchar(4),
-    Laptop_Price double(10),
+    Laptop_Price double(10, 0),
     Seller_Email varchar(30),
     Seller_Country text(30),
     PRIMARY KEY(Laptop_ID)
